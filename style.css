@@ -15,7 +15,7 @@ body {
   width: 100%;
   background-color: white;
   z-index: 1000;
-  margin-top: -15px;
+  top: 0;
 }
 
 .logo img {
@@ -42,4 +42,8 @@ body {
 
 .nav-links a:hover {
   color: #fa7436;
+}
+
+main {
+  padding-top: 70px; /* To avoid content being hidden behind the fixed navbar */
 }
