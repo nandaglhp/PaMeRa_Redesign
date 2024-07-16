@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .navbar {
@@ -49,7 +50,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0px 100px;
-  height: 100vh;
 }
 
 .home-content {
@@ -64,6 +64,8 @@ body {
   text-align: left;
   color: #222222;
   margin-left: 100px;
+  margin-bottom: 0;
+  height: auto;
 }
 
 .home-description {
@@ -95,4 +97,17 @@ body {
 
 .text-orange {
   color: #fa7436;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-image {
+  width: 68%;
+  height: 400px;
+  margin: auto;
+  background-image: url("/assets/tes.jpg"); /* path to your local image */
+  background-size: cover;
+  background-position: center;
 }
