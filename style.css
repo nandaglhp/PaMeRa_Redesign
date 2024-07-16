@@ -137,7 +137,7 @@ body {
   font-size: 16px;
 }
 
-.search-bar button {
+.orange-button {
   margin-left: 10px;
   padding: 8px 16px;
   background-color: #fa7436;
@@ -149,5 +149,77 @@ body {
 }
 
 .search-bar button:hover {
+  background-color: #d95a1a;
+}
+
+/* Style for the "Tentang Kami" section */
+
+#about {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 68%;
+  margin: 0 auto;
+}
+
+.about-image {
+  flex: 1;
+  height: 300px; /* Adjust height as needed */
+  width: 200px;
+  background-image: url("/assets/about.png"); /* Path to your about image */
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px; /* Rounded corners */
+  margin-right: 20px;
+}
+
+.desc-about {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title-about {
+  margin-top: 20px;
+}
+
+.tentang {
+  font-size: 12px;
+}
+
+.desc-about .text-orange {
+  color: #fa7436;
+}
+
+.desc-about h3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.desc-about p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #555555;
+}
+
+.orange-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #fa7436;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.orange-button:hover {
   background-color: #d95a1a;
 }
