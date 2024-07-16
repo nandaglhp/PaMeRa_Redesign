@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PeMaRa - Destinasi Wisata Malang</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav class="navbar">
@@ -34,7 +41,9 @@
         <div class="search-bar">
           <label for="search">Nama Wisata</label>
           <input type="text" id="search" placeholder="Cari destinasi..." />
-          <button type="button" class="orange-button">Cari</button>
+          <button type="button" class="orange-button">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </button>
         </div>
       </section>
       <section id="about">
@@ -104,13 +113,43 @@
           </div>
         </div>
       </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Informasi kontak PeMaRa...</p>
-      </section>
     </main>
-    <footer>
-      <p>this is footer, cak!</p>
+    <footer id="contact">
+      <div class="footer-company-head footer-section">
+        <p class="company-name text-orange">PEMARA</p>
+        <p class="company-moto">Kami percaya interaksi merek adalah kunci dalam komunikasi. Inovasi nyata dan positif.</p>
+        <!-- sosmed -->
+        <div class="sosmed">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-about-us footer-section">
+        <p>About us</p>
+        <a href="#">Features</a>
+        <a href="#">FAQ's</a>
+        <a href="#">News</a>
+        <a href="#">Pricing</a>
+      </div>
+      <div class="footer-company footer-section">
+        <p>Company</p>
+        <a href="#">Features</a>
+        <a href="#">FAQ's</a>
+        <a href="#">News</a>
+        <a href="#">Pricing</a>
+      </div>
+      <div class="footer-company footer-section">
+        <p>Support</p>
+        <a href="#">Support Center</a>
+        <a href="#">Feedback</a>
+        <a href="#">Accessability</a>
+      </div>
+      <div class="contact-me footer-section">
+        <p>Get in touch</p>
+        <input type="email" name="email" id="email" placeholder="Enter your email..." />
+        <button type="button" class="orange-button">Get Access</button>
+      </div>
     </footer>
   </body>
 </html>
