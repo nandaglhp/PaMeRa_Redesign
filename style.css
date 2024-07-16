@@ -111,3 +111,43 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.search-bar {
+  background-color: white;
+  padding: 10px 20px;
+  border: 0.5px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Mengatur agar konten berada di tengah horizontal */
+  margin-top: -20px;
+  width: 30%; /* Mengatur lebar search bar */
+  margin-left: 400px;
+  border-radius: 10px;
+}
+
+.search-bar label {
+  margin-right: 10px;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #fa7436;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background-color: #d95a1a;
+}
