@@ -223,3 +223,49 @@ body {
 .orange-button:hover {
   background-color: #d95a1a;
 }
+
+#destinations {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+#destinations h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 68%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  height: 200px; /* Adjust height as needed */
+  background-color: #cccccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.title-card {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.title-hour {
+  color: #666666;
+}
+
+.title-price {
+  font-weight: bold;
+}
